@@ -1,0 +1,109 @@
+body{
+
+    font-family: Arial, sans-serif;
+
+    background:#f4f4f4;
+
+}
+
+.container{
+
+    width:800px;
+
+    margin:auto;
+
+    margin-top:40px;
+
+    background:white;
+
+    padding:30px;
+
+    border-radius:10px;
+
+    box-shadow:0 0 10px gray;
+
+}
+
+h1{
+
+    text-align:center;
+
+    color:#333;
+
+}
+
+textarea{
+
+    width:100%;
+
+    height:140px;
+
+    font-size:18px;
+
+    padding:10px;
+
+    border-radius:5px;
+
+}
+
+button{
+
+    margin-top:20px;
+
+    padding:12px 25px;
+
+    font-size:18px;
+
+    background:#007BFF;
+
+    color:white;
+
+    border:none;
+
+    border-radius:5px;
+
+    cursor:pointer;
+
+}
+
+button:hover{
+
+    background:#0056b3;
+
+}
+
+.chat{
+
+    margin-top:40px;
+
+}
+
+.user{
+
+    background:#E8F0FE;
+
+    padding:20px;
+
+    margin-bottom:20px;
+
+    border-radius:8px;
+
+}
+
+.ai{
+
+    background:#EAF7EA;
+
+    padding:20px;
+
+    border-radius:8px;
+
+}
+
+p{
+
+    font-size:18px;
+
+    line-height:1.6;
+
+}
