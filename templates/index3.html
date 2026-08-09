@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>AWS AI Tutor</title>
+
+    <style>
+
+        body {
+            font-family: Arial;
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 20px;
+        }
+
+        textarea {
+            width: 100%;
+            height: 120px;
+            padding: 10px;
+            font-size: 16px;
+        }
+
+        button {
+            margin-top: 10px;
+            padding: 10px 20px;
+            font-size: 16px;
+        }
+
+        .question {
+            background: #f1f1f1;
+            padding: 15px;
+            margin-top: 30px;
+        }
+
+        .answer {
+            background: #e8f5e9;
+            padding: 15px;
+            margin-top: 15px;
+            white-space: pre-wrap;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <h1>🤖 AWS AI Tutor</h1>
+
+    <p>
+        Flask + Ollama + Llama 3.2 running on AWS EC2
+    </p>
+
+    <form method="POST">
+
+        <textarea
+            name="question"
+            placeholder="Ask your question..."
+            required>{{ question }}</textarea>
+
+        <br>
+
+        <button type="submit">
+            Ask AI
+        </button>
+
+    </form>
+
+
+    {% if question %}
+
+    <div class="question">
+
+        <strong>Question:</strong>
+
+        <p>
+            {{ question }}
+        </p>
+
+    </div>
+
+    {% endif %}
+
+
+    {% if answer %}
+
+    <div class="answer">
+
+        <strong>AI Answer:</strong>
+
+        <p>
+            {{ answer }}
+        </p>
+
+    </div>
+
+    {% endif %}
+
+</body>
+
+</html>
