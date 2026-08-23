@@ -1,0 +1,16 @@
+customer_id,customer_name,email,phone,gender,age,city,state,pincode,registration_date,customer_segment,total_spend,total_orders
+1001,Rajesh Kumar,rajesh.kumar@gmail.com,+91-9876543210,Male,34,Hyderabad,Telangana,500081,2023-04-15,Premium,125450.75,18
+1002,Priya Sharma,priya.sharma@gmail.com,+91-9849012345,Female,29,Bengaluru,Karnataka,560001,2023-06-22,Regular,68450.5,11
+1003,Arjun Reddy,arjun.reddy@gmail.com,+91-9988776655,Male,41,Chennai,Tamil Nadu,600028,2022-11-10,Premium,198750.25,24
+1004,Sneha Patel,sneha.patel@gmail.com,+91-9123456780,Female,26,Mumbai,Maharashtra,400001,2024-01-18,New,24500.0,5
+1005,Vikram Singh,vikram.singh@gmail.com,+91-9876501234,Male,38,Delhi,Delhi,110001,2021-08-05,Premium,256300.8,31
+1006,Ananya Rao,ananya.rao@gmail.com,+91-9012345678,Female,31,Pune,Maharashtra,411001,2023-09-12,Regular,72350.4,13
+1007,Karthik Nair,karthik.nair@gmail.com,+91-9090909090,Male,45,Kochi,Kerala,682001,2020-05-20,Premium,315600.9,42
+1008,Meera Iyer,meera.iyer@gmail.com,+91-9988112233,Female,36,Coimbatore,Tamil Nadu,641001,2022-03-14,Regular,91580.65,17
+1009,Rohit Verma,rohit.verma@gmail.com,+91-8899776655,Male,28,Jaipur,Rajasthan,302001,2024-03-02,New,18300.0,4
+1010,Divya Reddy,divya.reddy@gmail.com,+91-9345678901,Female,33,Vijayawada,Andhra Pradesh,520001,2023-12-08,Regular,56890.3,9
+1011,Suresh Babu,suresh.babu@gmail.com,+91-9988998899,Male,52,Nellore,Andhra Pradesh,524001,2019-07-11,Premium,428750.45,57
+1012,Pooja Desai,pooja.desai@gmail.com,+91-9876123456,Female,30,Ahmedabad,Gujarat,380001,2022-10-25,Regular,84560.75,15
+1013,Manoj Gupta,manoj.gupta@gmail.com,+91-8765432109,Male,43,Kolkata,West Bengal,700001,2021-02-16,Premium,175430.2,22
+1014,Lakshmi Devi,lakshmi.devi@gmail.com,+91-9654321098,Female,48,Visakhapatnam,Andhra Pradesh,530001,2020-11-30,Premium,234890.55,29
+1015,Aditya Joshi,aditya.joshi@gmail.com,+91-9123987654,Male,25,Gurugram,Haryana,122001,2024-05-10,New,12750.0,3
